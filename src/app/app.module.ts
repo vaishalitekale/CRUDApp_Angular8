@@ -11,12 +11,21 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
 import { ProductGetComponent } from './product-get/product-get.component';
 import { ProductService } from './products.service';  
 
+import {FirstPipe } from '../shared/FirstPipe';
+import { FirstDirective } from '../shared/FirstDirective';
+import { PipeExampleComponent } from './pipe-example/pipe-example.component';
+import { DirectiveExampleComponent } from './directive-example/directive-example.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     ProductAddComponent,
     ProductEditComponent,
-    ProductGetComponent
+    ProductGetComponent,
+    FirstPipe,
+    FirstDirective,
+    PipeExampleComponent,
+    DirectiveExampleComponent
   ],
   imports: [
     BrowserModule,
